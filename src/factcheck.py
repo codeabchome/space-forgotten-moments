@@ -110,13 +110,13 @@ source actually supports. Keep the sentence's place in the narration, its
 rhythm, and its length as close as possible. Change nothing else in the script.
 
 NASA SOURCE MATERIAL:
-{source_context}
+{source_context[:3000]}
 
 FULL NARRATION:
 {narration}
 
 Return the complete revised narration only."""},
-    ], max_tokens=5000, temperature=0.3)
+    ], max_tokens=2600, temperature=0.3)
 
     from .script_gen import _clean_narration
     out = _clean_narration(revised)
