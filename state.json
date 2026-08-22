@@ -8,15 +8,39 @@
     },
     "assets": {
       "status": "done",
-      "at": "2026-08-22T12:47:52.217983+00:00"
+      "at": "2026-08-22T12:57:48.524249+00:00"
     },
     "script": {
       "status": "done",
-      "at": "2026-08-22T12:47:56.958108+00:00"
+      "at": "2026-08-22T12:57:52.887720+00:00"
     },
     "factcheck": {
       "status": "done",
       "at": "2026-08-22T12:51:28.413409+00:00"
+    },
+    "voiceover": {
+      "status": "done",
+      "at": "2026-08-22T13:01:11.140592+00:00"
+    },
+    "subtitles": {
+      "status": "done",
+      "at": "2026-08-22T13:01:11.142506+00:00"
+    },
+    "visuals": {
+      "status": "done",
+      "at": "2026-08-22T13:04:01.745843+00:00"
+    },
+    "render": {
+      "status": "done",
+      "at": "2026-08-22T13:06:53.024960+00:00"
+    },
+    "shorts": {
+      "status": "done",
+      "at": "2026-08-22T13:07:56.268867+00:00"
+    },
+    "thumbnail": {
+      "status": "done",
+      "at": "2026-08-22T13:07:56.398449+00:00"
     }
   },
   "artifacts": {
@@ -27,8 +51,93 @@
     "working_title": "Skylab's Forgotten Fire",
     "asset_count": 13,
     "chapters": [],
-    "words": 1498,
-    "fact_issues": 4
+    "words": 915,
+    "fact_issues": 4,
+    "voice_seconds": 403.5253333333333,
+    "scene_clips": [
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0000.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0001.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0002.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0003.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0004.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0005.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0006.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0007.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0008.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0009.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0010.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0011.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0012.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0013.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0014.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0015.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0016.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0017.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0018.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0019.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0020.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0021.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0022.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0023.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0024.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0025.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0026.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0027.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0029.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0030.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0031.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0032.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0033.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0034.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0035.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0036.mp4"
+    ],
+    "scene_count": 36,
+    "episode_path": "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/episodes/skylabs-forgotten-fire.mp4",
+    "metadata": {
+      "title": "Skylab's Forgotten Fire: Repairing the Damaged Workshop in 1973",
+      "description": "The episode opens with the damaged Skylab orbital workshop after its 14 May 1973 launch, showing the missing meteoroid shield and torn solar arrays. Engineers at Marshall Space Flight Center quickly devised a twin‑pole sunshade, stitching fabric and testing the deployment in a neutral‑buoyancy pool and mockup facility.\n\nWhen the Saturn IB lifted off on 25 May 1973 with the crew of Charles “Pete” Conrad, Joseph Kerwin, and Paul Weitz, their mission—later known as Skylab‑2—focused on installing the sunshade and repairing the station so it could support long‑duration habitation. The episode details the ground preparations, the launch, and the historic in‑orbit repairs that saved America’s first space laboratory.\nAll footage used is NASA public domain material.\n\nAll imagery and footage in this video is NASA public domain material, sourced from the NASA Image and Video Library (images.nasa.gov). Narration is original and written from NASA's own archive records.",
+      "tags": [
+        "skylab",
+        "skylab 2",
+        "skylab repair",
+        "1973",
+        "saturn ib",
+        "pete conrad",
+        "joseph kerwin",
+        "paul weitz",
+        "space station",
+        "orbiting laboratory",
+        "sunshade",
+        "twin pole sunshade",
+        "marshall space flight center",
+        "neutral buoyancy",
+        "space history"
+      ]
+    },
+    "short_paths": [
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/shorts/skylabs-forgotten-fire_short_1.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/shorts/skylabs-forgotten-fire_short_2.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/shorts/skylabs-forgotten-fire_short_3.mp4"
+    ],
+    "short_picks": [
+      {
+        "start": 0,
+        "end": 3,
+        "hook": "Launch Disaster: Shield Lost"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "hook": "Ground Crew Crafts Sunshade"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "hook": "Sunshade Deployment Saves Skylab"
+      }
+    ],
+    "thumbnail_path": "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/thumbnails/skylabs-forgotten-fire.jpg"
   },
   "used_topics": [],
   "published": []
