@@ -1,0 +1,8 @@
+work/
+output/
+models/
+__pycache__/
+*.pyc
+client_secrets.json
+.env
+auth_output.tmp
