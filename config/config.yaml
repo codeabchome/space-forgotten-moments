@@ -45,7 +45,7 @@ tts:
   sample_rate: 24000
 
 nasa:
-    api_base: "https://images-api.nasa.gov"
+  api_base: "https://images-api.nasa.gov"
   # minimum assets a topic needs to stand alone as a full episode
   single_topic_min_assets: 25
   compilation_min_assets: 6
