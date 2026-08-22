@@ -61,7 +61,7 @@ def _chat(messages: list[dict], max_tokens: int | None = None, temperature: floa
             return r.json()["choices"][0]["message"]["content"]
 
         try:
-            out = retry(_call, attempts=3, base_delay=5.0, what=f"groq:{model}")
+            out = retry(_call, attempts=4, base_delay=20.0, what=f"groq:{model}")
             LOGGER.info("script model used: %s", model)
             return out
         except Exception as exc:  # noqa: BLE001
