@@ -1,0 +1,19 @@
+{
+  "episode_id": "20260822-skylabs-forgotten-fire",
+  "started_at": "2026-08-22T11:49:53.239783+00:00",
+  "stages": {
+    "topic": {
+      "status": "done",
+      "at": "2026-08-22T11:49:53.239952+00:00"
+    }
+  },
+  "artifacts": {
+    "kind": "single",
+    "topic_ids": [
+      "sk-1"
+    ],
+    "working_title": "Skylab's Forgotten Fire"
+  },
+  "used_topics": [],
+  "published": []
+}
