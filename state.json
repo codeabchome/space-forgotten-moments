@@ -8,11 +8,15 @@
     },
     "assets": {
       "status": "done",
-      "at": "2026-08-22T12:38:31.836233+00:00"
+      "at": "2026-08-22T12:47:52.217983+00:00"
     },
     "script": {
       "status": "done",
-      "at": "2026-08-22T12:38:37.174481+00:00"
+      "at": "2026-08-22T12:47:56.958108+00:00"
+    },
+    "factcheck": {
+      "status": "done",
+      "at": "2026-08-22T12:51:28.413409+00:00"
     }
   },
   "artifacts": {
@@ -23,7 +27,8 @@
     "working_title": "Skylab's Forgotten Fire",
     "asset_count": 13,
     "chapters": [],
-    "words": 1447
+    "words": 1498,
+    "fact_issues": 4
   },
   "used_topics": [],
   "published": []
