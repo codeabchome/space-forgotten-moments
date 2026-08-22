@@ -5,6 +5,14 @@
     "topic": {
       "status": "done",
       "at": "2026-08-22T11:49:53.239952+00:00"
+    },
+    "assets": {
+      "status": "done",
+      "at": "2026-08-22T12:38:31.836233+00:00"
+    },
+    "script": {
+      "status": "done",
+      "at": "2026-08-22T12:38:37.174481+00:00"
     }
   },
   "artifacts": {
@@ -12,7 +20,10 @@
     "topic_ids": [
       "sk-1"
     ],
-    "working_title": "Skylab's Forgotten Fire"
+    "working_title": "Skylab's Forgotten Fire",
+    "asset_count": 13,
+    "chapters": [],
+    "words": 1447
   },
   "used_topics": [],
   "published": []
