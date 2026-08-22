@@ -1,0 +1,123 @@
+# kind: single       -> rich enough archive to carry a full 8-10 min episode
+# kind: piece        -> 1-4 min of material; 3-4 of these merge into one themed episode
+# theme:             -> pieces sharing a theme get compiled together
+# query:             -> images.nasa.gov search terms (first match wins, rest broaden)
+# status: pending | used | skipped
+
+topics:
+  # ---------------------------------------------------------------- singles
+  - id: sk-1
+    kind: single
+    title: "Skylab's Forgotten Fire"
+    angle: "The 1973 launch that tore off a micrometeoroid shield and nearly ended America's first space station before anyone lived in it."
+    query: ["Skylab 1973 damage", "Skylab thermal shield", "Skylab repair EVA"]
+    status: pending
+
+  - id: sk-2
+    kind: single
+    title: "Ranger: Nine Tries to Photograph the Moon"
+    angle: "Six straight failures before Ranger 7 returned the first close-up lunar images in 1964."
+    query: ["Ranger spacecraft lunar", "Ranger 7 photographs", "Ranger program 1964"]
+    status: pending
+
+  - id: sk-3
+    kind: single
+    title: "The Lifting Bodies That Built the Shuttle"
+    angle: "Wingless aircraft dropped from a B-52 over the Mojave to prove a spacecraft could land on a runway."
+    query: ["lifting body M2-F2", "HL-10 aircraft", "X-24 lifting body"]
+    status: pending
+
+  - id: sk-4
+    kind: single
+    title: "Pioneer 10: The First Object Leaving the Solar System"
+    angle: "A probe built for 21 months that kept transmitting for 30 years, then went silent past the edge of the planets."
+    query: ["Pioneer 10 spacecraft", "Pioneer 10 Jupiter", "Pioneer plaque"]
+    status: pending
+
+  - id: sk-5
+    kind: single
+    title: "Gemini's Angry Spacecraft"
+    angle: "Gemini 8 achieved the first docking in orbit, then began spinning once per second with two men aboard."
+    query: ["Gemini 8 Agena docking", "Gemini 8 spacecraft", "Gemini program 1966"]
+    status: pending
+
+  # ---------------------------------------------------------------- pieces
+  - id: pc-1
+    kind: piece
+    theme: "Machines That Flew Once"
+    title: "The Rocket Belt NASA Actually Tested"
+    angle: "A 21-second personal flying machine evaluated for lunar surface mobility."
+    query: ["rocket belt test", "Bell rocket belt NASA"]
+    status: pending
+
+  - id: pc-2
+    kind: piece
+    theme: "Machines That Flew Once"
+    title: "The Flying Bedstead"
+    angle: "The Lunar Landing Research Vehicle — an open frame on a jet engine that taught astronauts to land on the Moon."
+    query: ["Lunar Landing Research Vehicle", "LLRV Armstrong", "lunar landing training vehicle"]
+    status: pending
+
+  - id: pc-3
+    kind: piece
+    theme: "Machines That Flew Once"
+    title: "The Inflatable Satellite You Could See From the Ground"
+    angle: "Echo 1, a 30-metre metallized balloon that bounced radio signals across the Atlantic."
+    query: ["Echo 1 satellite balloon", "Project Echo inflation test"]
+    status: pending
+
+  - id: pc-4
+    kind: piece
+    theme: "Machines That Flew Once"
+    title: "The Nuclear Rocket Engine That Ran on the Ground"
+    angle: "NERVA fired for minutes at a time in the Nevada desert, for a Mars mission that was cancelled."
+    query: ["NERVA nuclear rocket engine", "nuclear rocket test Nevada"]
+    status: pending
+
+  - id: pc-5
+    kind: piece
+    theme: "Tests Nobody Remembers"
+    title: "Dropping a Capsule Into the Ocean, Over and Over"
+    angle: "Apollo command module water impact testing at Langley."
+    query: ["Apollo capsule water impact test", "Langley impact basin"]
+    status: pending
+
+  - id: pc-6
+    kind: piece
+    theme: "Tests Nobody Remembers"
+    title: "The Centrifuge That Spun Astronauts to 20 G"
+    angle: "Human tolerance testing that decided how steep a re-entry a body could survive."
+    query: ["astronaut centrifuge training", "human centrifuge NASA test"]
+    status: pending
+
+  - id: pc-7
+    kind: piece
+    theme: "Tests Nobody Remembers"
+    title: "Crashing Aircraft on Purpose"
+    angle: "Langley's gantry drop tests, deliberately destroying airframes to learn how crews survive."
+    query: ["Langley crash test aircraft", "impact dynamics research facility"]
+    status: pending
+
+  - id: pc-8
+    kind: piece
+    theme: "Probes That Went Quiet"
+    title: "Mariner 1, Lost to a Missing Hyphen"
+    angle: "A Venus probe destroyed 293 seconds after launch by a transcription error in guidance software."
+    query: ["Mariner 1 launch", "Mariner program Venus"]
+    status: pending
+
+  - id: pc-9
+    kind: piece
+    theme: "Probes That Went Quiet"
+    title: "Mars Observer Vanishes"
+    angle: "Three days before Mars orbit insertion in 1993, contact stopped and was never regained."
+    query: ["Mars Observer spacecraft", "Mars Observer assembly"]
+    status: pending
+
+  - id: pc-10
+    kind: piece
+    theme: "Probes That Went Quiet"
+    title: "The Surveyor That Apollo 12 Walked Back To"
+    angle: "A dead lander revisited by astronauts two years later, pieces of it carried home."
+    query: ["Surveyor 3 Apollo 12", "Surveyor spacecraft lunar"]
+    status: pending

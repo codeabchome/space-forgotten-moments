@@ -1,0 +1,92 @@
+channel:
+  name: "Space's Forgotten Moments"
+  handle: "@SpaceForgottenMoments"
+  language: en
+
+video:
+  target_min_sec: 480          # 8 min
+  target_max_sec: 600          # 10 min
+  width: 1920
+  height: 1080
+  fps: 30
+  # FFmpeg settings tuned to survive GitHub Actions runners (SIGTERM lesson)
+  preset: veryfast
+  crf: 23
+  audio_bitrate: 192k
+
+shorts:
+  count: 3
+  min_sec: 25
+  max_sec: 55
+  width: 1080
+  height: 1920
+
+script:
+  words_min: 1100
+  words_max: 1400
+  wpm: 145                     # Kokoro documentary pace, used for length estimates
+  # Groq free tier. Primary + fallbacks (MacroMint lesson: models get deprecated)
+  models:
+    - "openai/gpt-oss-120b"
+    - "llama-3.3-70b-versatile"
+    - "llama-3.1-8b-instant"
+  max_tokens: 5000
+  temperature: 0.7
+
+tts:
+  # kokoro-onnx, Apache 2.0, CPU-only
+  model_url: "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx"
+  voices_url: "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin"
+  model_path: "models/kokoro-v1.0.onnx"
+  voices_path: "models/voices-v1.0.bin"
+  voice: "am_michael"          # deep, measured documentary tone
+  speed: 0.92
+  lang: "en-us"
+  sample_rate: 24000
+
+nasa:
+  api_base: "https://images.nasa.gov"
+  # minimum assets a topic needs to stand alone as a full episode
+  single_topic_min_assets: 25
+  compilation_min_assets: 6
+  media_types: ["image", "video"]
+  per_scene_fallback_assets: 3
+
+visuals:
+  ken_burns_zoom: 1.12         # end scale of the slow push
+  crossfade_sec: 0.8
+  min_scene_sec: 5.0
+  max_scene_sec: 14.0
+
+brand:
+  navy: "#0A1128"
+  navy_deep: "#060B1C"
+  silver: "#C7CCD6"
+  silver_hi: "#E7EAF0"
+  steel: "#7C8494"
+  font_title: "assets/fonts/InterDisplay-SemiBold.ttf"
+  font_body: "assets/fonts/Inter-Regular.ttf"
+  font_medium: "assets/fonts/Inter-Medium.ttf"
+  intro_sec: 4.0
+  outro_sec: 4.0
+
+subtitles:
+  font_name: "Inter SemiBold"
+  font_size: 54
+  primary: "&H00F0EAE7"        # ASS = &HAABBGGRR
+  highlight: "&H00D6CCC7"
+  outline: "&H001C1006"
+  outline_width: 3
+  margin_v: 120
+  max_chars_per_line: 42
+
+upload:
+  privacy: "public"
+  category_id: "27"            # Education
+  made_for_kids: false
+  publish_days: [1, 3, 5]      # Mon / Wed / Fri (0=Mon .. 6=Sun)
+
+paths:
+  work: "work"
+  output: "output"
+  state: "state.json"
