@@ -22,8 +22,8 @@ shorts:
   height: 1920
 
 script:
-  words_min: 1100
-  words_max: 1400
+  words_min: 1400
+  words_max: 1700
   wpm: 145                     # Kokoro documentary pace, used for length estimates
   # Groq free tier. Primary + fallbacks (MacroMint lesson: models get deprecated)
   models:
