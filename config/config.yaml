@@ -29,7 +29,7 @@ script:
   models:
     - "openai/gpt-oss-120b"
     - "openai/gpt-oss-20b"
-    - "qwen/qwen3-32b"
+  # qwen3-32b removed: returns 404 on this account tier
   max_tokens: 5000
   temperature: 0.7
 
