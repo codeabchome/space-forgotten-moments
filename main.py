@@ -198,9 +198,9 @@ def run(dry_run: bool = False) -> int:
         write_json(words_path, [w.__dict__ for w in words])
         st.mark("voiceover", voice_seconds=vo_dur)
 
-    if vo_dur < cfg["video"]["target_min_sec"] * 0.7:
-        LOGGER.warning("voiceover is only %.1f min — shorter than the 8-10 min target",
-                       vo_dur / 60)
+    if vo_dur < cfg["video"]["target_min_sec"]:
+        raise RuntimeError(f"Episode too short: {vo_dur:.0f}s. Below the 8-minute threshold, refusing to publish.")
+
 
     # ------------------------------------------------ subtitles
     ass = work_dir("subs") / "episode.ass"
