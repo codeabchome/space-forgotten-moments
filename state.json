@@ -1,18 +1,46 @@
 {
   "episode_id": "20260823-the-rocket-belt-nasa-actually-te",
-  "started_at": "2026-08-23T08:10:59.335303+00:00",
+  "started_at": "2026-08-23T17:22:17.888476+00:00",
   "stages": {
     "topic": {
       "status": "done",
-      "at": "2026-08-23T08:10:59.335689+00:00"
+      "at": "2026-08-23T17:22:17.888855+00:00"
     },
     "assets": {
       "status": "done",
-      "at": "2026-08-23T08:11:16.252134+00:00"
+      "at": "2026-08-23T17:22:56.388246+00:00"
     },
     "script": {
       "status": "done",
-      "at": "2026-08-23T08:12:27.477697+00:00"
+      "at": "2026-08-23T17:23:49.027908+00:00"
+    },
+    "factcheck": {
+      "status": "done",
+      "at": "2026-08-23T17:24:09.876125+00:00"
+    },
+    "voiceover": {
+      "status": "done",
+      "at": "2026-08-23T17:24:26.544436+00:00"
+    },
+    "subtitles": {
+      "status": "done",
+      "at": "2026-08-23T17:24:26.545385+00:00"
+    },
+    "visuals": {
+      "status": "done",
+      "at": "2026-08-23T17:24:44.280104+00:00"
+    },
+    "render": {
+      "status": "done",
+      "at": "2026-08-23T17:25:05.530291+00:00"
+    },
+    "shorts": {
+      "status": "done",
+      "at": "2026-08-23T17:25:32.918173+00:00"
+    },
+    "thumbnail": {
+      "status": "done",
+      "at": "2026-08-23T17:25:33.038000+00:00"
     }
   },
   "artifacts": {
@@ -28,18 +56,70 @@
     "chapters": [
       {
         "title": "The Rocket Belt NASA Actually Tested",
-        "word_offset": 24
+        "word_offset": 0
       },
       {
         "title": "The Flying Bedstead",
-        "word_offset": 121
+        "word_offset": 51
       },
       {
         "title": "The Nuclear Rocket Engine That Ran on the Ground",
-        "word_offset": 668
+        "word_offset": 51
       }
     ],
-    "words": 1224
+    "words": 79,
+    "fact_issues": 0,
+    "voice_seconds": 33.556,
+    "scene_clips": [
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0000.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0001.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/work/scenes/scene_0002.mp4"
+    ],
+    "scene_count": 3,
+    "episode_path": "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/episodes/3-machines-that-flew-once.mp4",
+    "metadata": {
+      "title": "Three Flights: Rocket Belt, RBS‑P Spin Test, Lunar Rover Demo",
+      "description": "In this episode we explore three unique machines that each flew only once. We start with the Bell Rocket Belt, a personal jetpack that lifted a pilot for just 21 seconds, followed by the Radiation Belt Storm Probe’s brief spin‑test flight that verified its attitude control system, and finish with a lunar‑surface mobility demonstration that never left the ground but showed the promise of future moon rovers.\n\nThe NASA archives preserve these rare moments, offering insight into the engineering challenges and the daring spirit behind each one‑off flight. By examining the original footage and documentation, we learn how these experiments shaped modern aerospace technology.\n\nAll footage used in this video is NASA public domain material.\n\nChapters:\n0:00 Introduction\n0:04 The Rocket Belt NASA Actually Tested\n0:28 The Flying Bedstead\n0:28 The Nuclear Rocket Engine That Ran on the Ground\n\nAll imagery and footage in this video is NASA public domain material, sourced from the NASA Image and Video Library (images.nasa.gov). Narration is original and written from NASA's own archive records.",
+      "tags": [
+        "rocket belt",
+        "personal jetpack",
+        "bell astronautics",
+        "radiation belt storm probes",
+        "rbs p",
+        "spin test",
+        "lunar rover",
+        "moon mobility",
+        "space history",
+        "one-time flights",
+        "aerospace engineering",
+        "nasa archives",
+        "flight test",
+        "historic spacecraft"
+      ]
+    },
+    "short_paths": [
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/shorts/3-machines-that-flew-once_short_1.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/shorts/3-machines-that-flew-once_short_2.mp4",
+      "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/shorts/3-machines-that-flew-once_short_3.mp4"
+    ],
+    "short_picks": [
+      {
+        "start": 0,
+        "end": 1,
+        "hook": "Sorry, Can't Help"
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "hook": "NASA Archive Limits"
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "hook": "Need Source Material"
+      }
+    ],
+    "thumbnail_path": "/home/runner/work/space-forgotten-moments/space-forgotten-moments/output/thumbnails/3-machines-that-flew-once.jpg"
   },
   "used_topics": [],
   "published": []
