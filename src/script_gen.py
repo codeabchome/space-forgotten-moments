@@ -116,7 +116,7 @@ def write_compilation(theme: str, pieces: list[dict]) -> tuple[str, list[dict]]:
             + ". Establish the common thread. Do not describe any subject in "
               "detail yet. Return only the narration."
         )},
-    ], max_tokens=500)
+    ], max_tokens=3000)
     parts.append(_clean_narration(intro))
 
     for i, piece in enumerate(pieces):
@@ -135,7 +135,7 @@ NASA ARCHIVE SOURCE MATERIAL (your only permitted source):
 {piece['source_context']}
 
 Return only the narration text."""},
-        ], max_tokens=2200)
+        ], max_tokens=5000)
         body = _clean_narration(body)
         segments.append({"title": piece["title"], "topic_id": piece["id"], "text": body})
         parts.append(body)
@@ -147,7 +147,7 @@ Return only the narration text."""},
             "subjects together and end on what they collectively represent. "
             "Do not ask viewers to like or subscribe. Return only the narration."
         )},
-    ], max_tokens=400)
+    ], max_tokens=3000)
     parts.append(_clean_narration(outro))
 
     full = "\n\n".join(parts)
