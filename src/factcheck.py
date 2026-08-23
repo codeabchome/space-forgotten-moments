@@ -57,7 +57,7 @@ CLAIMS:
 {listed}
 
 NASA SOURCE MATERIAL:
-{source_context}
+{source_context[:3000]}
 
 <EXAMPLE>
 [{{"index": 0, "status": "supported"}},
@@ -65,7 +65,7 @@ NASA SOURCE MATERIAL:
 </EXAMPLE>
 
 Return ONLY a JSON array in that shape."""},
-    ], temperature=0.1)
+    ], max_tokens=1500, temperature=0.1)
 
     try:
         results = json.loads(_strip_fences(raw))
