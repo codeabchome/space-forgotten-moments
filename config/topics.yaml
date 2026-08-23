@@ -10,35 +10,35 @@ topics:
     kind: single
     title: "Skylab's Forgotten Fire"
     angle: "The 1973 launch that tore off a micrometeoroid shield and nearly ended America's first space station before anyone lived in it."
-    query: ["Skylab 1973 damage", "Skylab thermal shield", "Skylab repair EVA"]
+    query: ["Skylab", "Skylab workshop", "Skylab 1973", "Skylab repair EVA"]
     status: pending
 
   - id: sk-2
     kind: single
     title: "Ranger: Nine Tries to Photograph the Moon"
     angle: "Six straight failures before Ranger 7 returned the first close-up lunar images in 1964."
-    query: ["Ranger spacecraft lunar", "Ranger 7 photographs", "Ranger program 1964"]
+    query: ["Ranger spacecraft", "Ranger lunar program", "Ranger 7", "Ranger Moon photographs"]
     status: pending
 
   - id: sk-3
     kind: single
     title: "The Lifting Bodies That Built the Shuttle"
     angle: "Wingless aircraft dropped from a B-52 over the Mojave to prove a spacecraft could land on a runway."
-    query: ["lifting body M2-F2", "HL-10 aircraft", "X-24 lifting body"]
+    query: ["lifting body aircraft", "lifting body research", "M2-F2", "HL-10", "X-24"]
     status: pending
 
   - id: sk-4
     kind: single
     title: "Pioneer 10: The First Object Leaving the Solar System"
     angle: "A probe built for 21 months that kept transmitting for 30 years, then went silent past the edge of the planets."
-    query: ["Pioneer 10 spacecraft", "Pioneer 10 Jupiter", "Pioneer plaque"]
+    query: ["Pioneer 10", "Pioneer spacecraft", "Pioneer Jupiter", "Pioneer plaque"]
     status: pending
 
   - id: sk-5
     kind: single
     title: "Gemini's Angry Spacecraft"
     angle: "Gemini 8 achieved the first docking in orbit, then began spinning once per second with two men aboard."
-    query: ["Gemini 8 Agena docking", "Gemini 8 spacecraft", "Gemini program 1966"]
+    query: ["Gemini 8", "Gemini spacecraft", "Gemini Agena docking", "Gemini program"]
     status: pending
 
   # ---------------------------------------------------------------- pieces
