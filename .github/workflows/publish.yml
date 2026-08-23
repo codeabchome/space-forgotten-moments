@@ -98,7 +98,7 @@ jobs:
           git push || echo "nothing to push"
 
       - name: Upload artifacts on failure
-        if: failure()
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: debug-${{ github.run_id }}
@@ -107,4 +107,4 @@ jobs:
             state.json
             work/narration.txt
             work/source_context.txt
-            work/subs/*.ass
+            output/
